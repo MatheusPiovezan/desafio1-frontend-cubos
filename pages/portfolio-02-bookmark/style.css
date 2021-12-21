@@ -1,0 +1,144 @@
+section {
+    margin: 0 170px;
+}
+section img {
+    width: 100%;
+    margin-bottom: 115px;
+}
+.manage {
+    display: flex;
+    flex-direction: row;
+}
+.manage button {
+    all: unset;
+    margin: 32px 260px 48px 0;
+    padding: 17px 50px;
+
+    text-align: center;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+    cursor: pointer;
+}
+.manage button:hover {
+    background: #33323D;
+    color: white;
+}
+.primeira {
+    margin-right: 125px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.primeira h1 {
+    margin: 48px 0 29px 0;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+.primeira p {
+    margin-bottom: 53px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.primeira span {
+    margin-bottom: 16px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+}
+
+.segunda h2 {
+    margin-bottom: 28px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+}
+.segunda p {
+    margin-bottom: 40px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.segunda span {
+    text-decoration: underline;
+}
+.segunda img {
+    width: 635px;
+    margin-bottom: 32px;
+}
+
+.pularow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.esquerda a {
+    margin: 32px 0 32px 20px;
+}
+.direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.direita a {
+    margin: 32px 20px 32px 0;
+    text-align: right;
+}
+.pularow h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+.pularow span {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.pulapagina {
+     margin-top: 65px;
+}
+.pulapagina img {
+    all: unset;
+    width: 8px;
+}
+.retangle {
+    width: auto;
+
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}

@@ -1,0 +1,140 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*section hero*/
+
+section {
+    margin: 0px 170px 0 170px;
+}
+section img {
+    width: 100%;
+}
+.hero {
+    margin-top: -356px;
+    width: 445px;
+    background-color: #FAFAFA;
+    
+    align-items: center;
+    position: absolute;
+} 
+.btn-hero a {
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    background: #203A4C;
+}
+.btn-hero img {
+    padding: 16px;
+    width: 100px;
+
+    display: inline-block;
+    
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+.btn-hero span {
+    all:unset;
+
+    width: 700px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-hero a:hover {
+    background-color: #5FB4A2;
+}
+.btn-hero img:hover {
+    filter:brightness(0) invert(1)
+}
+.hero h1 {
+    margin-bottom: 51px;
+    padding: 55px 28px 0px 28px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+/* section sobremim */
+
+.sobre {
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: row;
+}
+.sobre-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobre h1 {
+    margin: 51px 0px 28px 0px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+
+}
+.sobre p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.sobre button {
+    all: unset;
+    padding: 17px 28px;
+    margin: 45px 0 50px 0;
+
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    border: 1px solid #33323D;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    cursor: pointer;
+}
+.btn-ir {
+    display: flex;
+    justify-content: center;
+}
+.btn-ir button:hover {
+    background: #33323D;
+    color: white;
+}
+.sobre img {
+    width: 540px;
+    margin-right: 140px;
+}
+.retangle {
+    width: auto;
+
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+

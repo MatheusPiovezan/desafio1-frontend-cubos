@@ -1,0 +1,70 @@
+section {
+    margin: 0px 212px 0 212px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio img {
+    width: 540px;
+    height: 500px;
+}
+.portfolio h1 {
+    margin-top: 103px;
+}
+.portfolio p {
+    margin-top: 28px;
+}
+.portfolio button {
+    all: unset;
+
+    margin-top: 54px;
+    margin-bottom: 103px;
+    padding: 17px 38px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+}
+.retangle {
+    width: auto;
+
+    border: 1px solid #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+.portfolio-bookmark {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.img-direita {
+    margin-left: 125px;
+}
+.img-esquerda {
+    margin-right: 125px;
+}
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.portfolio button:hover {
+    background: #33323D;
+    color: white;
+
+    cursor: pointer;
+}
