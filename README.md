@@ -1,4 +1,4 @@
-## Página: https://matheuspiovezan.github.io/desafio1-frontend-cubos/pages/home/index.html
+## Página: https://matheuspiovezan.github.io/website-cubos/
 
 ![](https://i.imgur.com/xG74tOh.png)
 
